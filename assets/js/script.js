@@ -15,6 +15,9 @@ document.addEventListener("DoMContentLoaded", function() {
 
 
 function runGame () {
+    // creates two random numbers between 1 and 25 - you can change this later if you want)
+    let num1 = Math.floor(Math.random() * 25) +1;
+    let num2 = Math.floor(Math.random() * 25) +1;
 
 }
 
