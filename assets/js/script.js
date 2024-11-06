@@ -41,9 +41,12 @@ function runGame(gameType) {
 function checkAnswer() {
 
 }
-
+// gets the operands (the numbers) and the operatore (plus, minus etc)
+// directly from the DOMException, and returns the correct ansewer
 function calculateCorrectAnswer() {
-
+    let operand1 = parseInt(document.getElementById(`operand1`).innerText);
+    let operand2 = parseInt(document.getElementById(`operand2`).innerText);
+    let operator = document.getElementsById("operator").innerText;
 }
 
 function incrementScore() {
